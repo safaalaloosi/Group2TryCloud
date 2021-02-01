@@ -1,4 +1,8 @@
 package com.trycloud.tests.base;
 
-public class TestBase {
+public abstract class TestBase {
+
+    public static void setUp(){
+
+    }
 }
