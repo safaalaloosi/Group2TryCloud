@@ -24,7 +24,8 @@ public class TestPractice {
         }
         System.out.println("actualUrl = "+ actualUrl);
         System.out.println("expectedURL ="+ expectedURL);
-
+        Thread.sleep(300);
+        driver.close();
     }
 }
 
